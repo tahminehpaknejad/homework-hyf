@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form exercise</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="index2.html"/>
+    <link rel="stylesheet" href="index3.html"/>
+    <link rel="stylesheet" href="index4.html"/>
+    
+</head>
+<body>
+   <h1>hello</h1>
+<div>
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="#contact">contact</a>
+        <a href="#about">about</a>
+
+    </nav>
+</div>
+
+   <p>We can’t wait to help you improve your life-style and gain the attention from people around
+    you!
+    Sign up below to save up to 70% on apparel, hand-bags and cosmetics. Our agents are busy
+    picking the best offers that match your preferences and style. Every week we will send you a
+    hand-picked selection - we just need to know a few details about your first…</p>
+    <h1>Step 1/4 - tell us who you are?</h1>
+    <div class="progressbar">
+    <progress id="progressBar" max="100" value="25">progress</progress>
+</div>
+    <h5>Nice to meet you. Let’s spend a minute to get to know each other? Please enter the following:</h5>
+
+   <form action="">
+    <div class="name">
+    First name: <input type="text" name="FirstName" required>
+          
+    lastname: <input type="text" name="LastName" required>
+    </div>
+    </form>
+
+   
+    <div class="custom-select" style="width:200px;" required>
+        <select>
+          <option value="0">Select country:</option>
+          <option value="1">DEnmark</option>
+          <option value="2">Norway</option>
+          <option value="3">Sweden</option>
+          <option value="4">Germany</option>
+          <option value="5">Spain</option>
+          <option value="6">Italy</option>
+          <option value="7">Franc</option>
+          <option value="8">Uk</option>
+          </select>
+      </div>
+
+      <div class="phon">
+        Street Adress<input type="text" name="streetadress"required >
+        Post code<input type="text" name="postcode"required>
+    </div> 
+    <div>
+        <textarea id="desc" cols="100" rows="8" placeholder="Min. 200 characters" minlength="200" required>Profile Description</textarea>
+      </div>
+      <h4>Use the same address for billing and shipping? Uncheck below to fill out a separate shipping address.</h4>
+      
+      <div class="checkbox">
+        <input type="checkbox" id="shippingadress">
+        <label class="inline" for="shippingadress">Shipping Adress</label>
+      </div>
+
+      <button type="nextpage">Next Page</button>
+
+    
+    
+ 
+</body>
+</html>
